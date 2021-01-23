@@ -1,0 +1,44 @@
+ /*
+
+https://github.com/Kitecatcher/Bastion.git
+
+
+
+//#define CAYENNE_DEBUG
+#define CAYENNE_PRINT Serial
+#include <CayenneMQTTESP32.h>
+int ONOFF ;
+const int LED0=16;//GPIO16  to trigger the emergency button
+// WiFi network info.
+char ssid[] = "----";
+char wifiPassword[] = "_______";
+
+// Cayenne authentication info. This should be obtained from the Cayenne Dashboard. Replace the xxxxxxxxxxxx with your MQTT  USERNAME, PASSWORD, and CLIENT_ID
+char username[] = "09e43950-1180-11eb-8779-7d56e82df461";  
+char password[] = "517d2e1cf5ddafc6abd76fef6caa5349b52080a3";  
+char clientID[] = "7731ca90-1180-11eb-a2e4-b32ea624e442"; 
+//=============== End Cayenne token and SSID/PW Setting =================
+//=======================================================================
+// the setup function runs once when you press reset or power the board
+const int  = 4;   // The ______1 is wired to ESP32 board pin GPIO04
+const int yellow_LED1  = ______2;   // The yellow LED1 is wired to ESP32 board pin GPIO02
+const int green_LED1 = 15; // The ______3 is wired to ESP32 board pin GPIO15======
+const int red_LED2  = 25;   // The red ______4 is wired to Mega board pin GPIO25
+const int yellow_LED2  = 26;   // The yellow _____5 is wired to Mega board pin GPIO 26
+const int green_LED2 = 27; // The ______6 is wired to Mega board pin GPIO 27 
+
+
+
+
+Its a lantenern with 13 leds in series. with 2 220 resistors in line 
+There is a 5vdc Paad04010bh
+Testing fan 
+What does series 1.5v aa *4 =?
+
+
+
+
+
+
+*/
+
